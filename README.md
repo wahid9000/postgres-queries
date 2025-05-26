@@ -215,7 +215,7 @@ FULL JOIN courses ON students.course_id = courses.id;
 | 2        | Zahid          | 200    |
 | 3        | Wahid          | 300    |
 
-### উদাহরণ ১: গ্রাহক অনুযায়ী মোট অর্ডারের পরিমাণ
+### উদাহরণ : গ্রাহক অনুযায়ী মোট অর্ডারের পরিমাণ
 
 ```sql
 SELECT customer_name, SUM(amount)
